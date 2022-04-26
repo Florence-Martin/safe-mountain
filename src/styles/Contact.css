@@ -1,0 +1,51 @@
+compiler le fichier .scss en .css .text-center {
+  text-align: center !important;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* max-width: 500px;
+  width: 100%;
+  border: 2px solid gray;
+  border-radius: 5px; */
+  margin: 80px auto;
+  /* padding: 5px;
+  box-shadow: 0 2px 2px rgb(150, 148, 148); */
+}
+
+form .form-group {
+  margin: 10px auto;
+  width: 90%;
+}
+
+form .form-group .form-control {
+  display: block;
+  margin: 5px 0;
+  width: 100%;
+  height: 20px;
+}
+
+form .form-group .form-control:focus {
+  outline: none;
+}
+
+form .form-group .error {
+  color: #ff3f34;
+  display: block;
+  padding: 5px 0;
+}
+
+button {
+  color: #fff;
+
+  padding: 10px 35px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 30% 70% 68% 32% / 26% 59% 41% 74%;
+  border: 0;
+  cursor: pointer;
+}
