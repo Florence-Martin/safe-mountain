@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import SignUp from "./components/SignUp";
+import Flag from "./components/Flag";
 import image from "./assets/404.jpg";
 import "./styles/index.css";
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/ign" element={<IgnCard />} />
         <Route path="/secours" element={<Secours />} />
         <Route path="/info" element={<Infos />} />
+        <Route path="/flag" element={<Flag />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/signup" element={<SignUp />} />
         <Route

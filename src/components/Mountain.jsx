@@ -3,6 +3,7 @@ import React from "react";
 import HeadBand from "./HeadBand";
 import TodoList from "./ToDoList";
 import "../styles/index.css";
+import sport from "../assets/sport-hiver.jpeg";
 
 const Mountain = () => {
   return (
@@ -10,6 +11,7 @@ const Mountain = () => {
       <HeadBand />
 
       <div className="todo-app">
+        <img src={sport} alt="sport" />
         <TodoList />
       </div>
     </div>

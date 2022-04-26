@@ -1,11 +1,10 @@
-import React from "react";
 import "../styles/SignUp.css";
 
 const SignUp = () => {
   return (
     <div>
       <form>
-        <p className="text-3xl pb-6">Se connecter</p>
+        <p className="text-4xl pb-6">Se connecter</p>
         <div className="flex flex-row items-center justify-center lg:justify-start">
           <p className="text-lg mb-0 mr-4">Sign in with</p>
           <button

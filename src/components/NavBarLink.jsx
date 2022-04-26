@@ -33,8 +33,15 @@ function NavBarLinks({ isOpen, setOpen, burger }) {
       <NavLink activeClassName="active" to="/secours">
         Trousse de secours
       </NavLink>
-      <NavLink className="text-red-600" activeClassName="active" to="/info">
+      <NavLink className="text-red-400" activeClassName="active" to="/info">
         SOS infos
+      </NavLink>
+      <NavLink
+        className="text-yellow-200"
+        activeClassName="active"
+        to="/flag"
+      >
+        Code Drapeaux Avalanches
       </NavLink>
       <NavLink activeClassName="active" to="/contact">
         Contact

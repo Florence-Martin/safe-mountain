@@ -30,7 +30,7 @@ const Contact = () => {
   return (
     <>
       <form onSubmit={handleSubmit}>
-        <p className="text-3xl pb-6 ">Contactez-nous</p>
+        <p className="text-4xl pb-6 ">Contactez-nous</p>
         <p className="px-4 text-justify">
           Merci de compléter le formulaire suivant pour nous contacter.
         </p>

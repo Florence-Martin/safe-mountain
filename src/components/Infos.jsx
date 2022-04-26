@@ -5,7 +5,7 @@ import "../styles/Infos.css";
 const Info = () => {
   return (
     <div className="form-group">
-      <h1 className=" text-center text-2xl">SOS Infos</h1>
+      <h1 className=" text-center text-4xl">SOS Infos</h1>
 
       <dl className="container">
         <dt>Numéro URGENCE</dt>
